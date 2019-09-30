@@ -15,9 +15,9 @@ const map = new mapboxgl.Map({
 
 const marker = document.createElement('div')
 
-markerDomEl.style.width = "32px";
-markerDomEl.style.height = "39px";
-markerDomEl.style.backgroundImage = "url(http://i.imgur.com/WbMOfMl.png)";
+marker.style.width = "32px";
+marker.style.height = "39px";
+marker.style.backgroundImage = "url(http://i.imgur.com/WbMOfMl.png)";
 
 new mapboxgl.Marker(marker).setLngLat([-74.009, 40.705]).addTo(map)
 
